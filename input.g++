@@ -1,0 +1,11 @@
+;; helloworld.g++
+**
+(deffun sumup (x)  
+   (if (equal x 0)  
+        1  
+        (+x (sumup (- x 123)))
+   )
+)
+“comment”
+(list 0 01 12)
+a
