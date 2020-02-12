@@ -1,4 +1,4 @@
-# G-lexer-using-Lisp
+# G++-lexer-using-Lisp
 Given the description of the G++ language (G++Syntax.pdf) implement a lexer that does the tokenization of any set of valid G++ expressions or statements. 
 
 #G++ Language Lexer in Lisp: 
@@ -12,7 +12,7 @@ Whether code lines will be taken from the user as input or whether it is from a 
 - User writes $ g++ 'filename' *($ g++ file.g++)*, the code in the specified file is shown as reserved for tokens.
 
 
-##CFGs
+## CFGs
 
  START -> INPUT  
   INPUT -> EXPI | EXPLISTI  
